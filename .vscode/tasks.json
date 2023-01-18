@@ -15,7 +15,7 @@
                 "-I",
                 "/usr/local/include/wx-3.2",
                 "-I",
-                "${workspaceFolder}/src",
+                "${workspaceFolder}/include",
                 "-DWXUSINGDLL",
                 "-D__WXGTK3__",
                 "-D__WXGTK__",

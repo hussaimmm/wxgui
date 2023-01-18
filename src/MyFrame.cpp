@@ -5,7 +5,7 @@ enum
 };
  
 MyFrame::MyFrame()
-    : wxFrame(nullptr, wxID_ANY, "fsdfdfdffsdfdfdf����")
+    : wxFrame(nullptr, wxID_ANY, "Hello wxWidgets")
 {
     wxMenu *menuFile = new wxMenu;
     menuFile->Append(ID_Hello, "&Hello...\tCtrl-H",
